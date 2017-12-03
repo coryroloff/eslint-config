@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configured for me!",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint --ignore-pattern !.eslintrc.js .eslintrc.js",
+    "lint:fix": "eslint --fix --ignore-pattern !.eslintrc.js .eslintrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://coryroloff@github.com/coryroloff/eslint-config.git"
+  },
+  "author": "Cory Roloff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coryroloff/eslint-config/issues"
+  },
+  "homepage": "https://github.com/coryroloff/eslint-config#readme",
+  "private": true,
+  "files": [
+    ".eslintrc.js"
+  ],
+  "dependencies": {
+    "eslint": "4.12.1"
+  }
+}
