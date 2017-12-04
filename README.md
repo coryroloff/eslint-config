@@ -5,7 +5,7 @@ ESLint configured for me!
 ## Installation
 
 ```bash
-npm install @coryroloff/eslint-config@coryroloff/eslint-config
+npm install --save-dev @coryroloff/eslint-config@coryroloff/eslint-config
 ```
 
 ## Usage
