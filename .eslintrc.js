@@ -6,7 +6,8 @@ module.exports = {
 	extends: 'eslint:recommended',
 	parserOptions: {
 		ecmaVersion: 6,
-		ecmaFeatures: { experimentalObjectRestSpread: true }
+		ecmaFeatures: { experimentalObjectRestSpread: true },
+		sourceType: 'module'
 	},
 	rules: {
 		indent: [
