@@ -5,7 +5,8 @@
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "eslint --ignore-pattern !.eslintrc.js .eslintrc.js",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "healthcheck": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     ".eslintrc.js"
   ],
   "dependencies": {
-    "eslint": "4.12.1"
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1"
   }
 }
